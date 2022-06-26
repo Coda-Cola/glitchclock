@@ -1,0 +1,20 @@
+@font-face {
+  font-family: noto;
+  src: url(src/NotoSansSymbols2-Regular.ttf);
+}
+
+body {
+  font-family: noto;
+  color: #00ff41;
+  background-color: black;
+  font-size: 10rem;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00ff41;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #0fa,
+    0 0 1px #0fa, 0 0 1px #0fa, 0 0 1px #0fa, 0 0 1px #0fa;
+}

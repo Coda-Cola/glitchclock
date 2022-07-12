@@ -1,7 +1,7 @@
 
 # Glitch Clock
 
-Animated [**Glitch Clock**]⌚(https://6sexvh.csb.app/) created with codesandbox and fun! 
+Animated [**Glitch Clock**](https://6sexvh.csb.app/)⌚ created with codesandbox and fun! 
 
 The idea came from people who set their time few minutes ahead ⏭ so they know they have few minutes before they are late 🐌. 
 

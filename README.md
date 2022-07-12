@@ -5,6 +5,8 @@ Animated [**Glitch Clock**]⌚(https://6sexvh.csb.app/) created with codesandbox
 
 The idea came from people who set their time few minutes ahead ⏭ so they know they have few minutes before they are late 🐌. 
 
-This **Glitch Clock** shows time some randomized 🎲 minutes ahead. You never know how much minutes you have 👻. It is really-really glitchy 🍄.
+This **Glitch Clock** shows time some randomized 🎲 minutes ahead. 
+
+You never know how much minutes you have 👻. It is really-really glitchy 🍄.
 
 We did this all in vanilla html,css and javascript 🍦.

@@ -1,5 +1,7 @@
 import "./styles.css";
+
 let randomNumber = 4;
+
 const returnDigit = (number) => {
   switch (number) {
     case "0":
@@ -28,12 +30,25 @@ const returnDigit = (number) => {
       return "🯰";
   }
 };
+
+function toggleGlitchClass() {
+  document.getElementById("app").classList.toggle("glitching");
+}
+
+function activateGlitches() {
+  document.getElementById("app").className = "glitching";
+}
+
+activateGlitches();
+
+setInterval(toggleGlitchClass, 30000);
+
 const writeTextToHTML = (message) => {
   const output = document.getElementById("app");
 
   const digits = [...message].map((char) => returnDigit(char));
   const digitString = digits.join("");
-  console.log(digitString);
+
   output.innerHTML = `${digitString}`;
 };
 
@@ -42,7 +57,7 @@ const resetTimer = () => {
   const hours = now.getHours();
 
   const mins = parseInt(now.getMinutes());
-  //console.log("currentMins", mins);
+
   if (mins === 0) {
     getNewRandomNumber();
   }
@@ -65,6 +80,7 @@ function callEveryHour() {
 const getNewRandomNumber = () => {
   randomNumber = 4 + Math.floor(Math.random() * 7);
 };
+
 getNewRandomNumber();
 resetTimer();
 callEveryHour();

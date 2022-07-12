@@ -7,6 +7,6 @@ The idea came from people who set their time few minutes ahead ⏭ so they know 
 
 This **Glitch Clock** shows time some randomized 🎲 minutes ahead. 
 
-You never know how much minutes you have 👻. It is really-really glitchy 🍄.
+You never know how much minutes you have 👻. It is rEaLLy-ReallY gliTchy-tChy 🍄.
 
 We did this all in vanilla html,css and javascript 🍦.
